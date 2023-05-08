@@ -1,0 +1,46 @@
+.header{
+        background-color: pink;
+        height: 100px;
+        border: 1px solid red;
+}
+
+.footer{
+        background-color: greenyellow;
+        height: 200px;
+        border: 1px solid green;
+}
+
+.navbar{
+    background-color: gold;
+    height: 300px;
+    border: 1px solid brown;
+}
+
+.content{
+    background-color: skyblue;
+    height: 300px;
+    border: 1px solid blue;
+}
+
+div{
+    margin: 6px;
+}
+
+@media only screen and (min-width: 800px) {
+    
+    div{
+        margin: 3px;
+    }
+
+    .navbar{
+        height: 400px;
+        display: inline-block;
+        width: 19%;
+    }
+
+    .content{
+        height: 400px;
+        display: inline-block;
+        width: 78%;
+    }
+}
